@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webalves.effect">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.Splash"
+            android:theme="@style/NOaction">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NOaction"></activity>
+        <activity
+            android:name=".Activity.Login_Activity"
+            android:label="@string/title_activity_login_"
+            android:theme="@style/NOaction"></activity>
+        <activity
+            android:name=".Activity.Forget_Password_Activity"
+            android:label="@string/title_activity_forget__password_"
+            android:theme="@style/NOaction"></activity>
+        <activity
+            android:name=".Activity.Forget_password_Activity2"
+            android:label="@string/title_activity_forget_password__activity2"
+            android:theme="@style/NOaction"></activity>
+        <activity
+            android:name=".Activity.Change_Password_Activity"
+            android:label="@string/title_activity_change__password_"
+            android:theme="@style/NOaction"></activity>
+    </application>
+
+</manifest>
+

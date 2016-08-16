@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.webalves.effect.Activity.Change_Password_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/bg1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="Choose a new password" />
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_margin="20dp"
+            android:background="@drawable/transparent_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:text="New Password" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:background="@drawable/text_field"
+                    android:layout_height="40dp" />
+
+                <TextView
+
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:text="Confirm Password" />
+
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/text_field"
+                    android:layout_height="40dp" />
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/reset_pass"
+                    android:textColor="#fff"
+                    android:text="Reset Password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@drawable/reset_password_btn" />
+
+                <TextView
+                    android:layout_gravity="start"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:id="@+id/txt_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Back To Login" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
